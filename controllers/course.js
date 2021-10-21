@@ -1,4 +1,4 @@
-const asyncHandler = require('../middleware/async');
+const asyncHandler = require('express-async-handler');
 const Course = require('../models/Course');
 const errorResponse = require('../utils/errorResponse');
 
