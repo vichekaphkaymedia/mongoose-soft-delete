@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-data-validation-with-soft-delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.13.3",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-paginate-v2": "^1.4.2"
+  }
+}
