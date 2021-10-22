@@ -51,6 +51,8 @@ const CourseSchema = new mongoose.Schema({
 mongoose.set('returnOriginal',false)
 
 CourseSchema.plugin(mongoose_delete,{
+    deletedAt: true,
+    indexFields: true,
     overrideMethods: true,
 })
 
