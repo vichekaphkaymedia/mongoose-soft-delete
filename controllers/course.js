@@ -46,7 +46,7 @@ const update = asyncHandler(async (req, res, next) => {
 })
 
 const destroy = asyncHandler(async (req, res, next) => {
-    const course = await Course.delete({_id: req.params.id})
+    const course = await Course.deleteById(req.params.id)
     if (!course) {
         return next(new errorResponse('Course not found', 404));
     }
